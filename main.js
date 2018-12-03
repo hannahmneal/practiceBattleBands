@@ -25,10 +25,16 @@ let bandNumber = 1
 
 const bandList = function (bandName) {
    for (bandNumber = 1; bandNumber <= 10; bandNumber ++) {
-        console.log(bandNumber + bandName);
+      return (bandNumber + bandName);     //  console.log(bandNumber + bandName);    Original code
    }
-
 }
 
-const test = (bandList(" ACDC"));
-console.log(test);
+// const test = (bandList(" ACDC"));
+// console.log(test);
+console.log(bandList(" Mouse Rat"));
+
+//Emily's challenge: include a return statement in the bandList function.
+//The return statement should be able to send a value back to the function call site
+//(e.g., that value would get stored in the variable "test" on line 33)
+
+// Get clarification; Still not sure what the "return" means in a funciton. :/
